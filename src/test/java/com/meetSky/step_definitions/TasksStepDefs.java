@@ -10,6 +10,6 @@ public class TasksStepDefs {
 
     @And("the user navigates to {string} module")
     public void the_user_navigates_to_module(String moduleName) {
-        tasksPage.clickMenuByText(moduleName);
+        tasksPage.navigateTo(moduleName);
     }
 }

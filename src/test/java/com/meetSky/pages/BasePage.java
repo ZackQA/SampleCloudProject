@@ -21,8 +21,10 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    public void clickMenuByText(String text){
-        String locator = "(//a[contains(.,'"+text+"')])[1]";
+    public void navigateTo(String moduleName){
+
+       moduleName = moduleName.substring(0,1).toUpperCase() + moduleName.substring(1).toLowerCase();
+       String locator = "//ul[@id='appmenu']//a[@aria-label='"+moduleName+"']";
        WebElement element = Driver.getDriver().findElement(By.xpath(locator));
        element.click();
 
