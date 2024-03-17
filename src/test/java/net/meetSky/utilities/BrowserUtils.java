@@ -1,4 +1,4 @@
-package com.meetSky.utilities;
+package net.meetSky.utilities;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;

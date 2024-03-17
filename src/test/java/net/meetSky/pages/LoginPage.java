@@ -1,9 +1,9 @@
-package com.meetSky.pages;
+package net.meetSky.pages;
 
 
 
 
-import com.meetSky.utilities.Driver;
+import net.meetSky.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

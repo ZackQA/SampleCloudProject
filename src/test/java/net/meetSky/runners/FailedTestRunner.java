@@ -1,4 +1,4 @@
-package com.meetSky.runners;
+package net.meetSky.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;

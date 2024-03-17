@@ -1,4 +1,4 @@
-package com.meetSky.utilities;
+package net.meetSky.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

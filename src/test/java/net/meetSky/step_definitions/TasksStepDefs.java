@@ -1,8 +1,7 @@
-package com.meetSky.step_definitions;
+package net.meetSky.step_definitions;
 
-import com.meetSky.pages.TasksPage;
+import net.meetSky.pages.TasksPage;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 
 public class TasksStepDefs {
 

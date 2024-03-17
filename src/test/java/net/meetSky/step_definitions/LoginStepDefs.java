@@ -1,6 +1,6 @@
-package com.meetSky.step_definitions;
+package net.meetSky.step_definitions;
 
-import com.meetSky.pages.LoginPage;
+import net.meetSky.pages.LoginPage;
 
 import io.cucumber.java.en.Given;
 

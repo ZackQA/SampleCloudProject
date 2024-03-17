@@ -1,4 +1,4 @@
-package com.meetSky.utilities;
+package net.meetSky.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

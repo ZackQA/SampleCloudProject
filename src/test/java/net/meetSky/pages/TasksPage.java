@@ -1,4 +1,4 @@
-package com.meetSky.pages;
+package net.meetSky.pages;
 
 public class TasksPage extends BasePage{
 

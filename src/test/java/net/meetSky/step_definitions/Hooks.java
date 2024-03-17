@@ -1,11 +1,11 @@
-package com.meetSky.step_definitions;
+package net.meetSky.step_definitions;
 
 
 
 
-import com.meetSky.utilities.BrowserUtils;
-import com.meetSky.utilities.ConfigurationReader;
-import com.meetSky.utilities.Driver;
+import net.meetSky.utilities.BrowserUtils;
+import net.meetSky.utilities.ConfigurationReader;
+import net.meetSky.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
